@@ -1,0 +1,19 @@
+{
+    
+    "python.linting.flake8Enabled": true,
+    "python.linting.enabled": true,
+    "python.linting.flake8Path": "C:\\\\Users\\\\SIRASAPALLI VINAY\\\\AppDataLocal\\\\Programs\\\\Python\\\\Python38\\\\Scripts\\\\flake8",
+    "python.sortImports.args": [
+        "--ac"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true,
+        "python.sortImports": true
+    },
+    "python.formatting.provider": "black",
+    "python.formatting.blackPath": "C:\\\\Users\\\\SIRASAPALLI VINAY\\\\AppDataLocal\\\\Programs\\\\Python\\\\Python38\\\\Scripts\\\\black",
+    "python.formatting.blackArgs": [
+        "--line-length",
+        "79"
+    ]
+}
