@@ -4,7 +4,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="house_price",
+    name="housing_price",
     version="0.3",
     author="vinay sirasapalli",
     author_email="vinay.sirasapall@tigeranalytics.com",
