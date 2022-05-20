@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/housing_price/__init__.py
+src/housing_price/ingest_data.py
+src/housing_price/logger.py
+src/housing_price/score.py
+src/housing_price/train.py
+src/housing_price.egg-info/PKG-INFO
+src/housing_price.egg-info/SOURCES.txt
+src/housing_price.egg-info/dependency_links.txt
+src/housing_price.egg-info/top_level.txt
