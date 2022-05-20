@@ -24,7 +24,7 @@ def test_train():
     """Tests train.py module."""
     models = "tests/temp/articrafts/"
     dataset = "tests/temp/data/processed/housing_train.csv"
-    os.system(f"python src/housing_price/train.py -d {dataset} -m {models}")
+    os.system(f"python src/house_price/train.py -d {dataset} -m {models}")
     assert os.path.isfile(f"{models}/LinearRegression.pkl")
     assert os.path.isfile(f"{models}/RandomForestRegressor.pkl")
     assert os.path.isfile(f"{models}/DecisionTreeRegressor.pkl")
